@@ -6,9 +6,11 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 
 
 
+
 @NgModule({
   declarations: [
     SignUpComponent,
+    // LoginComponent
     LoginComponent
   ],
   imports: [
@@ -17,6 +19,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
   ],
   exports:[
     SignUpComponent,
+    // LoginComponent
     LoginComponent
   ]
 })
