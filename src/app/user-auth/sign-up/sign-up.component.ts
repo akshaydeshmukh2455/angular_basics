@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { NgForm } from '@angular/forms';
 @Component({
   selector: 'app-sign-up',
   templateUrl: './sign-up.component.html',
@@ -26,6 +26,13 @@ export class SignUpComponent {
 // }
 
 //styling
-title='Hello';
+// title='Hello';
+
+userData:any={};
+
+getData(data:NgForm){
+console.warn(data)
+this.userData=data;
+}
 
 }
