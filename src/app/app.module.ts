@@ -5,6 +5,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
+import { ChildModuleModule } from './child-module/child-module.module';
 import { ElseIfModule } from './else-if/else-if.module';
 import { ForLoopModule } from './for-loop/for-loop.module';
 import { HeaderModule } from './header/header.module';
@@ -12,6 +13,7 @@ import { IfElseModule } from './if-else/if-else.module';
 import { ModuleModule } from './module/module.module';
 import { NestedLoopModule } from './nested-loop/nested-loop.module';
 import { PropertyBindingModule } from './property-binding/property-binding.module';
+import { ReusableModuleModule } from './reusable-module/reusable-module.module';
 import { StyleBindingModule } from './style-binding/style-binding.module';
 import { SwitchCaseModule } from './switch-case/switch-case.module';
 import { TodoListModule } from './todo-list/todo-list.module';
@@ -39,7 +41,9 @@ import { UserAuthModule } from './user-auth/user-auth.module';
     MatSlideToggleModule,
     MatFormFieldModule,
     TodoListModule,
-    ModuleModule
+    ModuleModule,
+    ChildModuleModule,
+    ReusableModuleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
