@@ -12,12 +12,15 @@ import { HeaderModule } from './header/header.module';
 import { IfElseModule } from './if-else/if-else.module';
 import { ModuleModule } from './module/module.module';
 import { NestedLoopModule } from './nested-loop/nested-loop.module';
+import { PipesModule } from './pipes/pipes.module';
 import { PropertyBindingModule } from './property-binding/property-binding.module';
 import { ReusableModuleModule } from './reusable-module/reusable-module.module';
 import { StyleBindingModule } from './style-binding/style-binding.module';
 import { SwitchCaseModule } from './switch-case/switch-case.module';
+import { TemplateRefVarModule } from './template-ref-var/template-ref-var.module';
 import { TodoListModule } from './todo-list/todo-list.module';
 import { ToggleElementModule } from './toggle-element/toggle-element.module';
+import { TwoWayBindingModule } from './two-way-binding/two-way-binding.module';
 import { UserAuthModule } from './user-auth/user-auth.module';
 
 
@@ -43,7 +46,10 @@ import { UserAuthModule } from './user-auth/user-auth.module';
     TodoListModule,
     ModuleModule,
     ChildModuleModule,
-    ReusableModuleModule
+    ReusableModuleModule,
+    TwoWayBindingModule,
+    TemplateRefVarModule,
+    PipesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
