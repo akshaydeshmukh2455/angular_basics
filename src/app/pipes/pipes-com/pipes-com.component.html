@@ -1,6 +1,6 @@
 <p>pipes-com works!</p>
 
-<h1>{{title | uppercase}}</h1>
+<h1>{{title | slice : 3 | uppercase}}</h1>
 <h1>{{title | lowercase}}</h1>
 <h1>{{title}}</h1>
 
@@ -12,3 +12,8 @@
 
 <input type="text" [(ngModel)]="nm">
 {{nm | primeNumber}}
+
+<h2>{{user | json}}</h2>
+
+<h2>{{20 | currency:'INR'}}</h2>
+<h3></h3>

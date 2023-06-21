@@ -12,4 +12,9 @@ export class PipesComComponent {
 
   num:number=20
   nm:number=2
+
+  user={
+    name:'akshay',
+    age:27
+  }
 }
